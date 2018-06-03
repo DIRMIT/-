@@ -1,0 +1,38 @@
+  #sukhum {
+	   color: #fff;
+     font-size: 20px;
+	   border: 1px solid #000;
+     width: 100px;
+     display: inherit;
+     position: relative;
+     margin: auto;
+     margin-top: 20px;
+     text-align: center;
+     border-radius: 30px;
+     background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 11%, rgba(255,0,0,1) 24%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(11%, rgba(255,0,0,1)), color-stop(24%, rgba(255,0,0,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+     background:-webkit-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 11%, rgba(255,0,0,1) 24%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+     background: -o-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 11%, rgba(255,0,0,1) 24%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+     background: -ms-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 11%, rgba(255,0,0,1) 24%, rgba(0,0,0,1) 100%); /* ie10+ */
+     background:radial-gradient(ellipse at center, rgba(255,0,0,1) 11%, rgba(255,0,0,1) 24%, rgba(0,0,0,1) 100%); /* w3c */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+     padding: 10px;
+     color: #fff;
+     text-decoration: none;
+     text-shadow: -2px 2px #333;
+     border-radius: 30px;
+}
+#light{
+left: 35%;
+top: 20%;
+display: inline-block;
+position: absolute;
+text-align: center;
+}
+#bulb {
+  width: 300px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+}
